@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Tree": {
+      "commandName": "Project",
+      "commandLineArgs": "--sort change"
+    }
+  }
+}
