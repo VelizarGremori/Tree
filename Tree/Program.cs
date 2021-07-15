@@ -23,8 +23,7 @@ namespace Tree
                 Console.ReadLine();
                 Environment.Exit(1);
             }
-            var path = "D:\\Projects\\Tree\\Tree.Test\\Data";
-            var node = new Node(path, NodeType.Directory, 0);
+            var node = new Node(Directory.GetCurrentDirectory(), NodeType.Directory, 0);
 
             Console.WriteLine(treeView.GetTreeView(node));
         }
